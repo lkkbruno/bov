@@ -6,8 +6,8 @@ workflows:
         name: iOS App
         environment:
             vars:
-                XCODE_WORKSPACE: "appmcpa_bovino"
-                XCODE_SCHEME: "appmcpa_bovino"
+                XCODE_WORKSPACE: "project"
+                XCODE_SCHEME: "project"
             xcode: latest
             cocoapods: default
         scripts:
